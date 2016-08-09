@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA4CE8931D5A4AE900BB4958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4CE8921D5A4AE900BB4958 /* AppDelegate.swift */; };
+		DA4CE8951D5A4AE900BB4958 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DA4CE8941D5A4AE900BB4958 /* GameScene.sks */; };
+		DA4CE8971D5A4AE900BB4958 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4CE8961D5A4AE900BB4958 /* GameScene.swift */; };
+		DA4CE8991D5A4AE900BB4958 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4CE8981D5A4AE900BB4958 /* GameViewController.swift */; };
+		DA4CE89C1D5A4AE900BB4958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4CE89A1D5A4AE900BB4958 /* Main.storyboard */; };
+		DA4CE89E1D5A4AE900BB4958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4CE89D1D5A4AE900BB4958 /* Assets.xcassets */; };
+		DA4CE8A11D5A4AE900BB4958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4CE89F1D5A4AE900BB4958 /* LaunchScreen.storyboard */; };
+		DA4CE8AC1D5A4AE900BB4958 /* AdventuresOfPacManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4CE8AB1D5A4AE900BB4958 /* AdventuresOfPacManTests.swift */; };
+		DA4CE8B71D5A4AE900BB4958 /* AdventuresOfPacManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4CE8B61D5A4AE900BB4958 /* AdventuresOfPacManUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA4CE8A81D5A4AE900BB4958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA4CE8871D5A4AE900BB4958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4CE88E1D5A4AE900BB4958;
+			remoteInfo = AdventuresOfPacMan;
+		};
+		DA4CE8B31D5A4AE900BB4958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA4CE8871D5A4AE900BB4958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4CE88E1D5A4AE900BB4958;
+			remoteInfo = AdventuresOfPacMan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA4CE88F1D5A4AE900BB4958 /* AdventuresOfPacMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventuresOfPacMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4CE8921D5A4AE900BB4958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA4CE8941D5A4AE900BB4958 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DA4CE8961D5A4AE900BB4958 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DA4CE8981D5A4AE900BB4958 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DA4CE89B1D5A4AE900BB4958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA4CE89D1D5A4AE900BB4958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA4CE8A01D5A4AE900BB4958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA4CE8A21D5A4AE900BB4958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4CE8A71D5A4AE900BB4958 /* AdventuresOfPacManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventuresOfPacManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4CE8AB1D5A4AE900BB4958 /* AdventuresOfPacManTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventuresOfPacManTests.swift; sourceTree = "<group>"; };
+		DA4CE8AD1D5A4AE900BB4958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4CE8B21D5A4AE900BB4958 /* AdventuresOfPacManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventuresOfPacManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4CE8B61D5A4AE900BB4958 /* AdventuresOfPacManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventuresOfPacManUITests.swift; sourceTree = "<group>"; };
+		DA4CE8B81D5A4AE900BB4958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA4CE88C1D5A4AE900BB4958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4CE8A41D5A4AE900BB4958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4CE8AF1D5A4AE900BB4958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA4CE8861D5A4AE900BB4958 = {
+			isa = PBXGroup;
+			children = (
+				DA4CE8911D5A4AE900BB4958 /* AdventuresOfPacMan */,
+				DA4CE8AA1D5A4AE900BB4958 /* AdventuresOfPacManTests */,
+				DA4CE8B51D5A4AE900BB4958 /* AdventuresOfPacManUITests */,
+				DA4CE8901D5A4AE900BB4958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA4CE8901D5A4AE900BB4958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA4CE88F1D5A4AE900BB4958 /* AdventuresOfPacMan.app */,
+				DA4CE8A71D5A4AE900BB4958 /* AdventuresOfPacManTests.xctest */,
+				DA4CE8B21D5A4AE900BB4958 /* AdventuresOfPacManUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA4CE8911D5A4AE900BB4958 /* AdventuresOfPacMan */ = {
+			isa = PBXGroup;
+			children = (
+				DA4CE8921D5A4AE900BB4958 /* AppDelegate.swift */,
+				DA4CE8941D5A4AE900BB4958 /* GameScene.sks */,
+				DA4CE8961D5A4AE900BB4958 /* GameScene.swift */,
+				DA4CE8981D5A4AE900BB4958 /* GameViewController.swift */,
+				DA4CE89A1D5A4AE900BB4958 /* Main.storyboard */,
+				DA4CE89D1D5A4AE900BB4958 /* Assets.xcassets */,
+				DA4CE89F1D5A4AE900BB4958 /* LaunchScreen.storyboard */,
+				DA4CE8A21D5A4AE900BB4958 /* Info.plist */,
+			);
+			path = AdventuresOfPacMan;
+			sourceTree = "<group>";
+		};
+		DA4CE8AA1D5A4AE900BB4958 /* AdventuresOfPacManTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA4CE8AB1D5A4AE900BB4958 /* AdventuresOfPacManTests.swift */,
+				DA4CE8AD1D5A4AE900BB4958 /* Info.plist */,
+			);
+			path = AdventuresOfPacManTests;
+			sourceTree = "<group>";
+		};
+		DA4CE8B51D5A4AE900BB4958 /* AdventuresOfPacManUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA4CE8B61D5A4AE900BB4958 /* AdventuresOfPacManUITests.swift */,
+				DA4CE8B81D5A4AE900BB4958 /* Info.plist */,
+			);
+			path = AdventuresOfPacManUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA4CE88E1D5A4AE900BB4958 /* AdventuresOfPacMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4CE8BB1D5A4AE900BB4958 /* Build configuration list for PBXNativeTarget "AdventuresOfPacMan" */;
+			buildPhases = (
+				DA4CE88B1D5A4AE900BB4958 /* Sources */,
+				DA4CE88C1D5A4AE900BB4958 /* Frameworks */,
+				DA4CE88D1D5A4AE900BB4958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventuresOfPacMan;
+			productName = AdventuresOfPacMan;
+			productReference = DA4CE88F1D5A4AE900BB4958 /* AdventuresOfPacMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA4CE8A61D5A4AE900BB4958 /* AdventuresOfPacManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4CE8BE1D5A4AE900BB4958 /* Build configuration list for PBXNativeTarget "AdventuresOfPacManTests" */;
+			buildPhases = (
+				DA4CE8A31D5A4AE900BB4958 /* Sources */,
+				DA4CE8A41D5A4AE900BB4958 /* Frameworks */,
+				DA4CE8A51D5A4AE900BB4958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA4CE8A91D5A4AE900BB4958 /* PBXTargetDependency */,
+			);
+			name = AdventuresOfPacManTests;
+			productName = AdventuresOfPacManTests;
+			productReference = DA4CE8A71D5A4AE900BB4958 /* AdventuresOfPacManTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA4CE8B11D5A4AE900BB4958 /* AdventuresOfPacManUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4CE8C11D5A4AE900BB4958 /* Build configuration list for PBXNativeTarget "AdventuresOfPacManUITests" */;
+			buildPhases = (
+				DA4CE8AE1D5A4AE900BB4958 /* Sources */,
+				DA4CE8AF1D5A4AE900BB4958 /* Frameworks */,
+				DA4CE8B01D5A4AE900BB4958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA4CE8B41D5A4AE900BB4958 /* PBXTargetDependency */,
+			);
+			name = AdventuresOfPacManUITests;
+			productName = AdventuresOfPacManUITests;
+			productReference = DA4CE8B21D5A4AE900BB4958 /* AdventuresOfPacManUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA4CE8871D5A4AE900BB4958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Paul Wood";
+				TargetAttributes = {
+					DA4CE88E1D5A4AE900BB4958 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DA4CE8A61D5A4AE900BB4958 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA4CE88E1D5A4AE900BB4958;
+					};
+					DA4CE8B11D5A4AE900BB4958 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA4CE88E1D5A4AE900BB4958;
+					};
+				};
+			};
+			buildConfigurationList = DA4CE88A1D5A4AE900BB4958 /* Build configuration list for PBXProject "AdventuresOfPacMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA4CE8861D5A4AE900BB4958;
+			productRefGroup = DA4CE8901D5A4AE900BB4958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA4CE88E1D5A4AE900BB4958 /* AdventuresOfPacMan */,
+				DA4CE8A61D5A4AE900BB4958 /* AdventuresOfPacManTests */,
+				DA4CE8B11D5A4AE900BB4958 /* AdventuresOfPacManUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA4CE88D1D5A4AE900BB4958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4CE8951D5A4AE900BB4958 /* GameScene.sks in Resources */,
+				DA4CE8A11D5A4AE900BB4958 /* LaunchScreen.storyboard in Resources */,
+				DA4CE89E1D5A4AE900BB4958 /* Assets.xcassets in Resources */,
+				DA4CE89C1D5A4AE900BB4958 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4CE8A51D5A4AE900BB4958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4CE8B01D5A4AE900BB4958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA4CE88B1D5A4AE900BB4958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4CE8971D5A4AE900BB4958 /* GameScene.swift in Sources */,
+				DA4CE8991D5A4AE900BB4958 /* GameViewController.swift in Sources */,
+				DA4CE8931D5A4AE900BB4958 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4CE8A31D5A4AE900BB4958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4CE8AC1D5A4AE900BB4958 /* AdventuresOfPacManTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4CE8AE1D5A4AE900BB4958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4CE8B71D5A4AE900BB4958 /* AdventuresOfPacManUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA4CE8A91D5A4AE900BB4958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4CE88E1D5A4AE900BB4958 /* AdventuresOfPacMan */;
+			targetProxy = DA4CE8A81D5A4AE900BB4958 /* PBXContainerItemProxy */;
+		};
+		DA4CE8B41D5A4AE900BB4958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4CE88E1D5A4AE900BB4958 /* AdventuresOfPacMan */;
+			targetProxy = DA4CE8B31D5A4AE900BB4958 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA4CE89A1D5A4AE900BB4958 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4CE89B1D5A4AE900BB4958 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA4CE89F1D5A4AE900BB4958 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4CE8A01D5A4AE900BB4958 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA4CE8B91D5A4AE900BB4958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA4CE8BA1D5A4AE900BB4958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA4CE8BC1D5A4AE900BB4958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdventuresOfPacMan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulwoodiii.AdventuresOfPacMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA4CE8BD1D5A4AE900BB4958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdventuresOfPacMan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulwoodiii.AdventuresOfPacMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA4CE8BF1D5A4AE900BB4958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = AdventuresOfPacManTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulwoodiii.AdventuresOfPacManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventuresOfPacMan.app/AdventuresOfPacMan";
+			};
+			name = Debug;
+		};
+		DA4CE8C01D5A4AE900BB4958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdventuresOfPacManTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulwoodiii.AdventuresOfPacManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventuresOfPacMan.app/AdventuresOfPacMan";
+			};
+			name = Release;
+		};
+		DA4CE8C21D5A4AE900BB4958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = AdventuresOfPacManUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulwoodiii.AdventuresOfPacManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdventuresOfPacMan;
+			};
+			name = Debug;
+		};
+		DA4CE8C31D5A4AE900BB4958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdventuresOfPacManUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulwoodiii.AdventuresOfPacManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdventuresOfPacMan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA4CE88A1D5A4AE900BB4958 /* Build configuration list for PBXProject "AdventuresOfPacMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4CE8B91D5A4AE900BB4958 /* Debug */,
+				DA4CE8BA1D5A4AE900BB4958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4CE8BB1D5A4AE900BB4958 /* Build configuration list for PBXNativeTarget "AdventuresOfPacMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4CE8BC1D5A4AE900BB4958 /* Debug */,
+				DA4CE8BD1D5A4AE900BB4958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA4CE8BE1D5A4AE900BB4958 /* Build configuration list for PBXNativeTarget "AdventuresOfPacManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4CE8BF1D5A4AE900BB4958 /* Debug */,
+				DA4CE8C01D5A4AE900BB4958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA4CE8C11D5A4AE900BB4958 /* Build configuration list for PBXNativeTarget "AdventuresOfPacManUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4CE8C21D5A4AE900BB4958 /* Debug */,
+				DA4CE8C31D5A4AE900BB4958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA4CE8871D5A4AE900BB4958 /* Project object */;
+}
